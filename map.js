@@ -16,3 +16,10 @@ const brothers = ["Rakib Sheikh", "Sajib Molla", "Rony Khan", "Razib Talukder", 
 const vai = brothers.find(friend => friend[15])
 
 console.log(vai);
+
+
+const brothers = ["Rakib Sheikh", "Sajib Molla", "Rony Khan", "Razib Talukder", "Sagor Molla", "Borkot Ullah Blue"];
+
+const friends = brothers.map(fri => "My Friend: " + fri)
+
+console.log(friends);
